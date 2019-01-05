@@ -14,8 +14,8 @@ class ForumController extends AppController
 {   
    
     public function index(){
-        $posts = $this->paginate($this->Posts);
-        $this->set(compact('posts'));
+        // $posts = $this->paginate($this->Posts);
+        // $this->set(compact('posts'));
     }
 
     public function forumTopic($slug){
@@ -45,6 +45,10 @@ class ForumController extends AppController
     }
 
     public function viewTopic($slug){
+        $post = $this->Posts->get($slug, [
+            'contain' => []
+        ]);
 
+        $this->set('post', $post);
     }
 }
