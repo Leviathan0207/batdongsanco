@@ -31,29 +31,29 @@
                         description: "Căn hộ cao cấp Phạm văn Đồng",
                         button: {
                             url: "https://www.youtube.com/watch?v=XYwStW8Sb9A",
-                            text: "Watch Gameplay"
+                            text: "Dự án nổi bật"
                         },
                         background: "https://img.youtube.com/vi/XYwStW8Sb9A/maxresdefault.jpg"
                     });
                     this.CarouselData.push({
                         id: 2,
-                        title: "Opal Garden",
-                        description: "Căn hộ cao cấp Phạm văn Đồng",
+                        title: "Opal Riverside",
+                        description: "Khu căn hộ resort cao cấp",
                         button: {
-                            url: "https://www.youtube.com/watch?v=XYwStW8Sb9A",
-                            text: "Watch Gameplay"
+                            url: "https://www.youtube.com/watch?v=viN7D5tMTGM",
+                            text: "Dự án nổi bật"
                         },
-                        background: "https://img.youtube.com/vi/XYwStW8Sb9A/maxresdefault.jpg"
+                        background: "https://img.youtube.com/vi/viN7D5tMTGM/maxresdefault.jpg"
                     });
                     this.CarouselData.push({
                         id: 3,
-                        title: "Opal Garden",
-                        description: "Căn hộ cao cấp Phạm văn Đồng",
+                        title: "Luxcity Office-Tel",
+                        description: "Khu căn hộ Office-Tel cao cấp",
                         button: {
-                            url: "https://www.youtube.com/watch?v=XYwStW8Sb9A",
-                            text: "Watch Gameplay"
+                            url: "https://www.youtube.com/watch?v=OKxlzO3A6Rg",
+                            text: "Dự án nổi bật"
                         },
-                        background: "https://img.youtube.com/vi/XYwStW8Sb9A/maxresdefault.jpg"
+                        background: "https://img.youtube.com/vi/OKxlzO3A6Rg/maxresdefault.jpg"
                     });
                 }
             },
