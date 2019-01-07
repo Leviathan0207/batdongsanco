@@ -5,7 +5,7 @@
             <div class="navbar">
                 <div class="navbar-left">
                     <a class="navbar-toggle"><i class="fa fa-bars"></i></a>
-                    <a href="/" class="logo"><img src="<?= $this->Url->image('logo.png') ?>" alt="logo"></a>
+                    <a href="/" class="logo"><img src="<?= $this->Url->image('logo2.png') ?>" alt="logo"></a>
                         <nav class="nav">
                             <ul>
                                 <li>
@@ -17,15 +17,7 @@
                                 <li>
                                     <?= $this->Html->link('Diễn đàn', ['controller' => 'Forum', 'action' => 'index']) ?>
                                 </li>
-                                <li class="has-dropdown">
-                                    <a href="forums.html">Forums</a>
-                                    <ul>
-                                        <li><a href="forums.html">Forum</a></li>
-                                        <li><a href="forum-topic.html">Forum Topic</a></li>
-                                        <li><a href="forum-post.html">Forum Post</a></li>
-                                        <li><a href="forum-create.html">Forum Create</a></li>
-                                    </ul>
-                                </li>
+                               
                             </ul>
                         </nav>
                 </div>
