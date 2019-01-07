@@ -13,6 +13,7 @@
                         <div class="post-meta">
                             <span><i class="fa fa-clock-o"></i> July 29, 2017 by <a href="constantine">Constantine</a></span>
                             <span><a href="/hehe.html#comments"><i class="fa fa-comment-o"></i> 98 comments</a></span>
+                            <span><a href="/hehe.html#comments"><i class="fa fa-map"></i></i> 345 x 763 m2</a></span>
                         </div>
                         <p>There's more to Bend Studio's latest game than just zombies and homicidal marauders. Of the number of reasons to feel optimistic about Days Gonee.</p>
                     </div>
@@ -175,13 +176,19 @@
             <div class="col-lg-4">
                 <div class="sidebar">
                     <!-- widget search -->
-                    <div class="widget widget-search">
-                        <form>
-                            <div class="form-group input-icon-right">
-                                <i class="fa fa-search"></i>
-                                <input type="text" class="form-control" placeholder="Type to search...">
-            </div>
-                        </form>
+                    <div class="row">
+                        <div class="widget widget-search col-lg-8">
+                            <form>
+                                <div class="form-group input-icon-right">
+                                    <i class="fa fa-search"></i>
+                                    <input type="text" class="form-control" placeholder="Type to search...">
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col-lg-4">
+                        <a class="btn btn-primary btn-shadow float-right" href="<?= $this->Url->build(['controller' => 'Forum', 'action' => 'createTopic']) ?>" role="button">New topic <i class="fa fa-plus"></i></a>
+                        </div>
                     </div>
 
                     <!-- widget post  -->
