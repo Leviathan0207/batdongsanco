@@ -27,33 +27,33 @@
                 getCarouselData() {
                     this.CarouselData.push({
                         id: 1,
-                        title: "For Honor: The Berserker",
-                        description: "Enter the chaos of a raging war as a bold knight, brutal viking, or mysterious samurai.",
+                        title: "Opal Garden",
+                        description: "Căn hộ cao cấp Phạm văn Đồng",
                         button: {
-                            url: "https://www.youtube.com/watch?v=zFUymXnQ5z8",
+                            url: "https://www.youtube.com/watch?v=XYwStW8Sb9A",
                             text: "Watch Gameplay"
                         },
-                        background: "https://img.youtube.com/vi/BhTkoDVgF6s/maxresdefault.jpg"
+                        background: "https://img.youtube.com/vi/XYwStW8Sb9A/maxresdefault.jpg"
                     });
                     this.CarouselData.push({
                         id: 2,
-                        title: "The Last of Us: Remastered",
-                        description: "Survive an apocalypse on Earth in The Last of Us, a PlayStation 4-exclusive title.",
+                        title: "Opal Garden",
+                        description: "Căn hộ cao cấp Phạm văn Đồng",
                         button: {
-                            url: "https://www.youtube.com/watch?v=W2Wnvvj33Wo",
+                            url: "https://www.youtube.com/watch?v=XYwStW8Sb9A",
                             text: "Watch Gameplay"
                         },
-                        background: "img/carousel/carousel-2.jpg"
+                        background: "https://img.youtube.com/vi/XYwStW8Sb9A/maxresdefault.jpg"
                     });
                     this.CarouselData.push({
                         id: 3,
-                        title: "The Witcher 3: Blood and Wine",
-                        description: "The world is in chaos. The air is thick with tension and the smoke of burnt villages.",
+                        title: "Opal Garden",
+                        description: "Căn hộ cao cấp Phạm văn Đồng",
                         button: {
-                            url: "https://www.youtube.com/watch?v=c0i88t0Kacs",
+                            url: "https://www.youtube.com/watch?v=XYwStW8Sb9A",
                             text: "Watch Gameplay"
                         },
-                        background: "img/carousel/carousel-1.jpg"
+                        background: "https://img.youtube.com/vi/XYwStW8Sb9A/maxresdefault.jpg"
                     });
                 }
             },
