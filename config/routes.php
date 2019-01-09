@@ -54,7 +54,7 @@ Router::scope('/', function (RouteBuilder $routes) {
      */
 
     // PAGE CONTROLLER
-    $routes->connect('/', ['controller' => 'Pages', 'action' => 'index', 'home']);
+    $routes->connect('/', ['controller' => 'News', 'action' => 'index']);
     $routes->connect('/lien-he', ['controller' => 'Pages', 'action' => 'contact']);
     $routes->connect('/cap-nhat', ['controller' => 'Pages', 'action' => 'releases']);
     $routes->connect('/demo', ['controller' => 'Pages', 'action' => 'demo']);
@@ -65,7 +65,8 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
 
     // NEWS CONTROLLER
-    $routes->connect('/tin-tuc', ['controller' => 'News', 'action' => 'index']);
+    //$routes->connect('/tin-tuc', ['controller' => 'News', 'action' => 'index']);
+    $routes->connect('/tin-tuc/post', ['controller' => 'News', 'action' => 'post']);
     $routes->connect('/:user/post', ['controller' => 'News', 'action' => 'userPublished'])
         ->setPatterns([
             'user' => '[a-zA-Z0-9-_]+',
