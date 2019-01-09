@@ -3,12 +3,12 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-5">
-                <h4 class="footer-title">About Gameforest</h4>
-                <p>Gameforest is a Bootstrap Gaming theme. Build your own gaming theme with gameforest and you will love to use it. Clean and pure coded HTML, CSS files what is included in your downloaded package.</p>
-                <p>Attached more then 60+ HTML pages and customized elements. Copy and paste your favourite section or build your own so easily.</p>
+                <h4 class="footer-title">TẬP ĐOÀN BẤT ĐỘNG SẢN CO</h4>
+                <p>2W Ung Văn Khiêm, P. 25, Q. Bình Thạnh, TP.HCM</p>
+                <p>028. 6252 5252 - 028. 6285 3896</p>
             </div>
-            <div class="col-sm-12 col-md-3">
-                <h4 class="footer-title">Platform</h4>
+            <!-- <div class="col-sm-12 col-md-3">
+                <h4 class="footer-title">KẾT NỐI VỚI CHÚNG TÔI</h4>
                 <div class="row">
                     <div class="col">
                         <ul>
@@ -27,14 +27,14 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="col-sm-12 col-md-4">
-                <h4 class="footer-title">Subscribe</h4>
-                <p>Subscribe to our newsletter and get notification when new games are available.</p>
+                <h4 class="footer-title">ĐĂNG KÝ</h4>
+                <p>Để nhận được thông tin dự án mới nhất và ưu đãi từ Bất Động Sản Co</p>
                 <div class="input-group m-t-25">
                     <input type="text" class="form-control" placeholder="Email">
                     <span class="input-group-btn">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
+                            <button class="btn btn-primary" type="button">Đăng Ký</button>
                         </span>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                 <a href="https://www.twitch.tv/" target="_blank" data-toggle="tooltip" title="twitch"><i class="fa fa-twitch"></i></a>
                 <a href="https://www.youtube.com/user/1YAKUZI" target="_blank" data-toggle="tooltip" title="youtube"><i class="fa fa-youtube"></i></a>
             </div>
-            <p>Copyright &copy; 2017 <a href="https://themeforest.net/item/gameforest-responsive-gaming-html-theme/5007730" target="_blank">Gameforest</a>. All rights reserved.</p>
+            <p>Copyright &copy; 2019 <a href="https://themeforest.net/item/gameforest-responsive-gaming-html-theme/5007730" target="_blank">ITHutech</a>. All rights reserved.</p>
         </div>
     </div>
 </footer>
