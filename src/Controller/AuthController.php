@@ -28,7 +28,7 @@ class AuthController extends Controller{
             ]
         ]);
     }
-    public function beforeFilter($event){
+    public function beforeFilter(Event $event){
         $this->Auth->allow(['register','verification']);
     }
 }

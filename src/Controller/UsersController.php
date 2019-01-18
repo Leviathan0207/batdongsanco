@@ -38,6 +38,7 @@ class UsersController extends AuthController
             $this->Flash->error('Sai thông tin tài khoản');
         }
     }
+    
     public function register()
     {
         $user = $this->Users->newEntity();
