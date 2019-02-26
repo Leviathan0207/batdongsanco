@@ -27,33 +27,33 @@
                 getCarouselData() {
                     this.CarouselData.push({
                         id: 1,
-                        title: "For Honor: The Berserker",
-                        description: "Enter the chaos of a raging war as a bold knight, brutal viking, or mysterious samurai.",
+                        title: "Opal Garden",
+                        description: "Căn hộ cao cấp Phạm văn Đồng",
                         button: {
-                            url: "https://www.youtube.com/watch?v=zFUymXnQ5z8",
-                            text: "Watch Gameplay"
+                            url: "https://www.youtube.com/watch?v=XYwStW8Sb9A",
+                            text: "Dự án nổi bật"
                         },
-                        background: "https://img.youtube.com/vi/BhTkoDVgF6s/maxresdefault.jpg"
+                        background: "https://img.youtube.com/vi/XYwStW8Sb9A/maxresdefault.jpg"
                     });
                     this.CarouselData.push({
                         id: 2,
-                        title: "The Last of Us: Remastered",
-                        description: "Survive an apocalypse on Earth in The Last of Us, a PlayStation 4-exclusive title.",
+                        title: "Opal Riverside",
+                        description: "Khu căn hộ resort cao cấp",
                         button: {
-                            url: "https://www.youtube.com/watch?v=W2Wnvvj33Wo",
-                            text: "Watch Gameplay"
+                            url: "https://www.youtube.com/watch?v=viN7D5tMTGM",
+                            text: "Dự án nổi bật"
                         },
-                        background: "img/carousel/carousel-2.jpg"
+                        background: "https://img.youtube.com/vi/viN7D5tMTGM/maxresdefault.jpg"
                     });
                     this.CarouselData.push({
                         id: 3,
-                        title: "The Witcher 3: Blood and Wine",
-                        description: "The world is in chaos. The air is thick with tension and the smoke of burnt villages.",
+                        title: "Luxcity Office-Tel",
+                        description: "Khu căn hộ Office-Tel cao cấp",
                         button: {
-                            url: "https://www.youtube.com/watch?v=c0i88t0Kacs",
-                            text: "Watch Gameplay"
+                            url: "https://www.youtube.com/watch?v=OKxlzO3A6Rg",
+                            text: "Dự án nổi bật"
                         },
-                        background: "img/carousel/carousel-1.jpg"
+                        background: "https://img.youtube.com/vi/OKxlzO3A6Rg/maxresdefault.jpg"
                     });
                 }
             },

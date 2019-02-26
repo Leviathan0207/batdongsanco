@@ -21,16 +21,18 @@
                             <div class="divider"><span>or</span></div>
                             <div class="form-group input-icon-left m-b-10">
                                 <i class="fa fa-user"></i>
-                                <?= $this->Form->input('Username',['type'=>'text','class'=>'form-control form-control-secondary','placeholder'=>'Username','label'=>false]);?>                      
+                                                   
+                                <input type="text" class="form-control form-control-secondary" placeholder="Username">
                             </div>
                             <div class="form-group input-icon-left m-b-10">
                                 <i class="fa fa-envelope"></i>
-                                <?= $this->Form->input('Email',['type'=>'email','class'=>'form-control form-control-secondary','placeholder'=>'Email Address','label'=>false]);?>                             
+
+                                <input type="email" class="form-control form-control-secondary" placeholder="Email Address">                             
                             </div>
                             <div class="divider"><span>Security</span></div>
                             <div class="form-group input-icon-left m-b-10">
                                 <i class="fa fa-lock"></i>
-                                <?= $this->Form->input('Password',['type'=>'password','class'=>'form-control form-control-secondary','placeholder'=>'Password','label'=>false]);?>
+                                <input type="password" class="form-control form-control-secondary" placeholder="Password">
                             </div>
                             <div class="form-group input-icon-left m-b-10">
                                 <i class="fa fa-unlock"></i>

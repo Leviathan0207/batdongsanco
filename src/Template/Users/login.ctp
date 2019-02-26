@@ -10,20 +10,20 @@
                         <h4 class="card-title"><i class="fa fa-sign-in"></i> Login to your account</h4>
                     </div>
                     <div class="card-block">
-                        <?= $this->Form->create(); ?>
+                        <form>
                             <a class="btn btn-social btn-facebook btn-block btn-icon-left" href="" role="button" @click="fbLogin"><i class="fa fa-facebook"></i> Connect with Facebook</a>
                             <div class="divider">
                                 <span>or</span>
                             </div>
                             <div class="form-group input-icon-left m-b-10">
                                 <i class="fa fa-user"></i>
-                                <?= $this->Form->input('Email',['type'=>'email','class'=>'form-control form-control-secondary','placeholder'=>'Email','label'=>false]);?>         
-                                <!-- <input type="email" class="form-control form-control-secondary" placeholder="Username"> -->
+                                        
+                                <input type="email" class="form-control form-control-secondary" placeholder="Username">
                             </div>
                             <div class="form-group input-icon-left m-b-15">
                                 <i class="fa fa-lock"></i>
-                                <?= $this->Form->input('Password',['type'=>'password','class'=>'form-control form-control-secondary','placeholder'=>'Password','label'=>false]);?>   
-                                <!-- <input type="password" class="form-control form-control-secondary" placeholder="Password"> -->
+                                   
+                                <input type="password" class="form-control form-control-secondary" placeholder="Password">
                             </div>
                             <label class="custom-control custom-checkbox custom-checkbox-primary">
                             <input type="checkbox" class="custom-control-input">
@@ -39,7 +39,7 @@
                                 'class' => 'btn btn-secondary btn-block',
                                 'role' => 'button'
                             ]) ?>
-                        <?=$this->Form->end();?>
+                        </form>
                     </div>
                 </div>
             </div>

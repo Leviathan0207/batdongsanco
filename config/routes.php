@@ -54,7 +54,7 @@ Router::scope('/', function (RouteBuilder $routes) {
      */
 
     // PAGE CONTROLLER
-    $routes->connect('/', ['controller' => 'Pages', 'action' => 'index', 'home']);
+    $routes->connect('', ['controller' => 'News', 'action' => 'index']);
     $routes->connect('/lien-he', ['controller' => 'Pages', 'action' => 'contact']);
     $routes->connect('/cap-nhat', ['controller' => 'Pages', 'action' => 'releases']);
     $routes->connect('/demo', ['controller' => 'Pages', 'action' => 'demo']);
@@ -62,10 +62,12 @@ Router::scope('/', function (RouteBuilder $routes) {
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
+    
     $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
 
     // NEWS CONTROLLER
-    $routes->connect('/tin-tuc', ['controller' => 'News', 'action' => 'index']);
+    //$routes->connect('/tin-tuc', ['controller' => 'News', 'action' => 'index']);
+    $routes->connect('/tin-tuc/post', ['controller' => 'News', 'action' => 'post']);
     $routes->connect('/:user/post', ['controller' => 'News', 'action' => 'userPublished'])
         ->setPatterns([
             'user' => '[a-zA-Z0-9-_]+',
@@ -83,6 +85,7 @@ Router::scope('/', function (RouteBuilder $routes) {
         ->setPass(['user']);
     
     //USER CONTROLLER
+    $routes->connect('/list', ['controller' => 'Users', 'action' => 'index']);
     $routes->connect('/dang-nhap', ['controller' => 'Users', 'action' => 'login']);
     $routes->connect('/dang-ky', ['controller' => 'Users', 'action' => 'register']);
     $routes->connect('/dang-nhap-facebook', ['controller' => 'Users', 'action' => 'fblogin']);

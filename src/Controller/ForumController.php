@@ -16,6 +16,7 @@ class ForumController extends AppController
 {   
    
     public function index(){
+<<<<<<< HEAD
         
     }
 
@@ -28,6 +29,10 @@ class ForumController extends AppController
         $this->loadModel('Posts');
         $posts = $this->Posts->find('all');
         $this->set(compact('posts'));
+=======
+        // $posts = $this->paginate($this->Posts);
+        // $this->set(compact('posts'));
+>>>>>>> c36edc3d45391138fb117026cedf9d8f05c504c5
     }
 
     public function stripUnicode($str){
