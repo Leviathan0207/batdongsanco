@@ -80,6 +80,11 @@ class PostsTable extends Table
             ->maxLength('PostThread', 100)
             ->allowEmpty('PostThread');
 
+        $validator
+            ->scalar('PostSlug')
+            ->maxLength('PostSlug', 255)
+            ->allowEmpty('PostSlug');
+
         return $validator;
     }
 }

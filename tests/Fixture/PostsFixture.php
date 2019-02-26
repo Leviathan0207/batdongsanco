@@ -24,6 +24,7 @@ class PostsFixture extends TestFixture
         'PostContent' => ['type' => 'string', 'length' => 1000, 'null' => true, 'default' => null, 'collate' => 'latin1_swedish_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'PostDesc' => ['type' => 'string', 'length' => 255, 'null' => true, 'default' => null, 'collate' => 'latin1_swedish_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'PostThread' => ['type' => 'string', 'length' => 100, 'null' => true, 'default' => null, 'collate' => 'latin1_swedish_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
+        'PostSlug' => ['type' => 'string', 'length' => 255, 'null' => true, 'default' => null, 'collate' => 'latin1_swedish_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['PostID'], 'length' => []],
         ],
@@ -45,11 +46,12 @@ class PostsFixture extends TestFixture
             [
                 'PostID' => 1,
                 'PostTitle' => 'Lorem ipsum dolor sit amet',
-                'PostDate' => '2019-01-05 01:04:30',
+                'PostDate' => '2019-01-06 13:35:10',
                 'PostAuthor' => 'Lorem ipsum dolor sit amet',
                 'PostContent' => 'Lorem ipsum dolor sit amet',
                 'PostDesc' => 'Lorem ipsum dolor sit amet',
-                'PostThread' => 'Lorem ipsum dolor sit amet'
+                'PostThread' => 'Lorem ipsum dolor sit amet',
+                'PostSlug' => 'Lorem ipsum dolor sit amet'
             ],
         ];
         parent::init();
